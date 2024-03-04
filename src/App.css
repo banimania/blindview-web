@@ -120,16 +120,40 @@
   padding-bottom: 15px;
 }
 
-#mode > #mode-keyword{
+#mode > #mode-keyword {
   font-size: 20px;
   color: #333333;
   padding-bottom: 15px;
+}
+
+#memoria {
+  background-color: #444444;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#memoria > #link {
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #35b6e6;
+}
+
+#memoria > #link:hover {
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #006aff;
 }
 
 body {
   background-color: #222222;
   /*background: linear-gradient(45deg, #222222, #333333);*/
   font-family: monospace;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
