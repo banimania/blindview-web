@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/blindview-web/static/css/main.ecf192e4.css",
-    "main.js": "/blindview-web/static/js/main.c380fca3.js",
+    "main.js": "/blindview-web/static/js/main.3ff92aad.js",
     "index.html": "/blindview-web/index.html",
     "main.ecf192e4.css.map": "/blindview-web/static/css/main.ecf192e4.css.map",
-    "main.c380fca3.js.map": "/blindview-web/static/js/main.c380fca3.js.map"
+    "main.3ff92aad.js.map": "/blindview-web/static/js/main.3ff92aad.js.map"
   },
   "entrypoints": [
     "static/css/main.ecf192e4.css",
-    "static/js/main.c380fca3.js"
+    "static/js/main.3ff92aad.js"
   ]
 }
