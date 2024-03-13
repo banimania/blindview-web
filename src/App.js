@@ -21,14 +21,14 @@ function App() {
       <h2 class="benefits">Ventajas</h2>
       <div id="wrapper">
         <Feature name="Accesibilidad" description="Nuestra sencilla interfaz integrada nos permite compartir los grandes avances y beneficios de la inteligencia artificial con las personas más dependientes." icon="./icons/accesibilidad.png"/>
-        <Feature name="Bajo coste" description="A diferencia de muchas otras soluciones, esta aplicación es de uso prácticamente gratuito y de código abierto. Además, es posible administrar las claves utilizadas." icon="./icons/dollar.png"/>
+        <Feature name="Bajo coste" description="A diferencia de muchas otras soluciones, esta aplicación es de uso prácticamente gratuito y de código abierto. Además, es posible administrar las claves utilizadas fácilmente." icon="./icons/dollar.png"/>
         <Feature name="Integración" description="Nuestra interfaz puede hacer uso de ciertas funciones como la ubicación, el giroscopio o la cámara del dispositivo, con el objetivo de orientar al usuario en el espacio que lo rodea." icon="./icons/gps.png"/>
         <Feature name="La aplicación" description="La aplicación proporciona una gran variedad de modos con diferentes funcionalidades y nos permite acceder a un sin fin de opciones mediante palabras clave seleccionables vía voz." icon="./icons/settings.png"/>
       </div>
 
       <h2 class="modes">Modos</h2>
       <div id="wrapper-modes">
-        <Mode name="Orientación" keyword="orientación" description="Cuando este modo está activado, el dispositivo realiza capturas periódicamente y describe el ambiente percibido por la cámara, advirtiendo al usuario de cualquier peligro en el camino."/>
+        <Mode name="Orientación" keyword="orientación" description="Cuando este modo está activado, el dispositivo realiza capturas periódicamente y describe el ambiente percibido por la cámara, advirtiendo al usuario de cualquier peligro en el camino. Si se desea detener un mensaje específico de audio, en este o en cualquier otro modo, es posible hacerlo pulsando rápidamente la pantalla."/>
         <Mode name="Indicaciones" keyword="indicaciones" description="Una vez se activa este modo, la interfaz preguntará al usuario a dónde desea ir. Para el correcto funcionamiento de este modo, es necesario activar la ubicación del dispositivo. La aplicación refrescará las indicaciones desde su ubicación actual cuando el usuario diga 'actualizar ruta'."/>
         <Mode name="Semáforos" keyword="semáforos" description="Esta opción nos informa de nuestro entorno e identifica todos los semáforos presentes en el ambiente percibido, informando al usuario del estado de los mismos y de cualquier obstáculo relevante."/>
         <Mode name="Pregunta" example="pregunta ¿Cuánto es 10x3?" keyword="pregunta" description="En el caso de que el usuario quiera acceder a la inteligencia artificial, podrá realizar preguntas a través de esta opción, obteniendo un tiempo de respuesta mucho mejor que si enviase la imagen."/>
